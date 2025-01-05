@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/HistoryDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/AdminServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/history.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/HistoryServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/BookDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/WishlistServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/RegisterServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/search.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/login.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/BookServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/Admin.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/WishlistDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/SearchServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/Rating.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/main/Main.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/footer.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/index.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/User.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/History.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/header.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/wishlist.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/Member.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/UserDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/config/DBConnection.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/register.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/META-INF/context.xml</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/Book.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/RatingDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/LoginServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/LogoutServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/AuthServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/dao/GenericDAO.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/RatingServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/Controller/ProfileServlet.java</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/web/profile.jsp</file>
+            <file>file:/D:/part%205/PBO/Tugas%20besar/Zenshelf2/src/java/model/Rekomendasi.java</file>
+        </group>
+    </open-files>
+</project-private>
