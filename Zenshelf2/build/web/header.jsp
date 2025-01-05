@@ -11,9 +11,21 @@
     <title>Zenshelf - Online Library</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* CSS Kustom */
+        .custom-navbar {
+            background-color: #33294a; /* Ganti dengan warna yang diinginkan */
+            color: white; /* Ganti warna teks jika perlu */
+        }
+        .custom-button {
+            background-color: #FF5733; /* Contoh warna kustom untuk tombol */
+            color: white; /* Warna teks tombol */
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">Zenshelf</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
