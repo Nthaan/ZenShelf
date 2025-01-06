@@ -110,7 +110,7 @@ public class BookDAO implements GenericDAO<Book> {
         
             ResultSet rs = stmt.getGeneratedKeys();
             if (rs.next()) {
-                book.setId(rs.getInt(1)); // Set ID yang dihasilkan ke objek book
+                book.setId(rs.getInt(1)); 
                 System.out.println("Buku baru berhasil disimpan dengan ID: " + book.getId());
             }
         }
@@ -119,14 +119,14 @@ public class BookDAO implements GenericDAO<Book> {
     
     public List<Book> findAll() throws SQLException {
     List<Book> books = new ArrayList<>();
-    String sql = "SELECT * FROM books"; // Mengambil semua buku dari tabel
+    String sql = "SELECT * FROM books";
 
     try (Connection conn = DBConnection.getConnection();
          PreparedStatement stmt = conn.prepareStatement(sql);
          ResultSet rs = stmt.executeQuery()) {
 
         while (rs.next()) {
-            // Membuat objek Book dari hasil query
+          
             Book book = new Book(
                 rs.getInt("id"),
                 rs.getString("title"),
@@ -138,11 +138,11 @@ public class BookDAO implements GenericDAO<Book> {
             book.setDescription(rs.getString("description"));
             book.setAverageRating(rs.getDouble("average_rating"));
             
-            // Menambahkan objek Book ke dalam daftar
+           
             books.add(book);
             }
         }
-        return books; // Mengembalikan daftar buku
+        return books;
     }
-    // Implementasi yg laen kek delete bla bla blaa
+  
 }
