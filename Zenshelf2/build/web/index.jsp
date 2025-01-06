@@ -5,14 +5,14 @@
 --%>
 
 <%@ include file="header.jsp" %>
-<div class="container my-5">
+<div class="container my-4">
     <div class="jumbotron text-center">
         <h1 class="display-4" style="font-family: Garamond; color: darkblue;">Welcome to Zenshelf</h1>
-        <p class="lead">A Seamless Digital Library Experience Awaits You</p>
+        <p class="lead">Unlock a world of stories and start your reading experience today</p>
         <img src="images/book.png" class="img-fluid" alt="Library" style="max-width: 500px; margin: 20px 0;">
         <p class="lead">ZenShelf is an innovative online library that allows you to dive into a world of books, tailored to your preferences. Whether you're at home or on the go, our platform brings reading to your fingertips with advanced features</p>
         <hr class="my-4">
-        <p>Browse through our collection of books and start your reading journey today.</p>
+        <p>Uncover a world of knowledge and imagination.</p>
         <a class="btn btn-primary btn-lg" href="search.jsp" role="button">Browse Books</a>
     </div>
 
@@ -34,3 +34,4 @@
         </c:forEach>
     </div>
 </div>
+<%@ include file="footer.jsp" %>
