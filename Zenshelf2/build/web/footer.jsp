@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h5>About Zenshelf</h5>
-                <p>Your digital library for endless reading possibilities.</p>
+                <p>Your gateway to limitless reading adventures.</p>
             </div>
             <div class="col-md-3">
                 <h5>Quick Links</h5>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <p class="mb-0">&copy; 2023 Zenshelf. All rights reserved.</p>
+            <p class="mb-0">&copy; 2024 Zenshelf. All rights reserved.</p>
         </div>
     </div>
 </footer>
