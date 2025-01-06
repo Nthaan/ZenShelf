@@ -27,7 +27,7 @@ public class HistoryDAO implements GenericDAO<History> {
             stmt.setString(4, "borrowed");
             stmt.executeUpdate();
             
-            // Update book availability
+            
             updateBookAvailability(book.getId(), false);
         }
     }
@@ -41,7 +41,7 @@ public class HistoryDAO implements GenericDAO<History> {
             stmt.setInt(3, history.getId());
             stmt.executeUpdate();
             
-            // Update book availability
+           
             updateBookAvailability(history.getBook().getId(), true);
         }
     }
@@ -101,9 +101,9 @@ public class HistoryDAO implements GenericDAO<History> {
     String sql = "UPDATE history SET return_date = ?, status = ? WHERE id = ?";
     try (Connection conn = DBConnection.getConnection();
          PreparedStatement stmt = conn.prepareStatement(sql)) {
-        stmt.setTimestamp(1, new Timestamp(System.currentTimeMillis())); // Set return date to current time
-        stmt.setString(2, history.getStatus()); // Set status (e.g., "returned")
-        stmt.setInt(3, history.getId()); // Set the ID of the history record to update
+        stmt.setTimestamp(1, new Timestamp(System.currentTimeMillis())); 
+        stmt.setString(2, history.getStatus()); 
+        stmt.setInt(3, history.getId()); 
         int rowsAffected = stmt.executeUpdate();
         if (rowsAffected > 0) {
             System.out.println("History dengan ID " + history.getId() + " berhasil diperbarui.");
@@ -119,14 +119,14 @@ public class HistoryDAO implements GenericDAO<History> {
          PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
         stmt.setInt(1, history.getMember().getId());
         stmt.setInt(2, history.getBook().getId());
-        stmt.setTimestamp(3, new Timestamp(history.getBorrowDate().getTime())); // Set borrow date
-        stmt.setString(4, history.getStatus()); // Set status (e.g., "borrowed")
+        stmt.setTimestamp(3, new Timestamp(history.getBorrowDate().getTime())); 
+        stmt.setString(4, history.getStatus());
         stmt.executeUpdate();
         
-        // Mendapatkan ID yang dihasilkan
+       
         ResultSet rs = stmt.getGeneratedKeys();
         if (rs.next()) {
-            history.setId(rs.getInt(1)); // Set ID yang dihasilkan ke objek history
+            history.setId(rs.getInt(1)); 
         }
     }
     }
