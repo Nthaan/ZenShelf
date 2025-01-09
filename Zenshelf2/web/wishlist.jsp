@@ -27,7 +27,7 @@
 </div>
 
 <!-- history.jsp -->
-<%@ include file="header.jsp" %>
+<%@ include file="history.jsp" %>
 <div class="container my-5">
     <h2 class="mb-4">Borrowing History</h2>
     <div class="table-responsive">

@@ -1,10 +1,11 @@
-<%-- 
-    Document   : index
-    Created on : Jan 5, 2025, 3:08:48?AM
-    Author     : Nathania
---%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
 <%@ include file="header.jsp" %>
+
+<body>
+
 <div class="container my-5">
     <div class="jumbotron text-center">
         <h1 class="display-4">Welcome to Zenshelf</h1>
@@ -16,19 +17,180 @@
 
     <div class="row mt-5">
         <h2 class="text-center mb-4">Popular Books</h2>
-        <c:forEach items="${popularBooks}" var="book">
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">${book.title}</h5>
-                        <p class="card-text">By ${book.author}</p>
-                        <p class="card-text">
-                            <small class="text-muted">Rating: ${book.averageRating}/5</small>
-                        </p>
-                        <a href="book?id=${book.id}" class="btn btn-primary">View Details</a>
+    </div>
+                    
+    <section class="products section-padding">
+        <div class="container">
+            <div class="row">    
+            
+            <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/filosofi.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>     
+                
+                 <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/ct.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </c:forEach>
-    </div>
+                
+                 <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/emotional.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/filosofi.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/ct.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/emotional.jpeg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" class="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                </h5>
+
+                                <p class="product-p">Original package design from house</p>
+                            </div>
+
+                            <small class="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+                    
+                  <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+                    
 </div>
+<%@ include file="footer.jsp" %>
+</body>
+</html>
